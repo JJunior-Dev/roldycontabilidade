@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Shantell+Sans&display=swap');
+
+.cabecalho {
+    padding: 10px 5px;
+    background-color: aliceblue;
+}
+
+.cabecalho .logo {
+    display: inline-block;
+}
+
+.cabecalho nav {
+    float: right;
+}
+
+.cabecalho nav li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.icone-whatsapp {
+    width: 50px;
+    height: 50px;
+    position: fixed; 
+    bottom: 0px; 
+    right: 0px; 
+    margin-bottom: 20px; 
+    margin-right: 20px;
+}
+
+body {
+    position: relative;
+}
+
+main {
+    background-color: rgb(15, 15, 14);
+    height: 500px;
+    position: relative;
+}
+
+main p {
+    padding: 10px;
+}
+
+.quem-somos {
+    padding: 15px;
+}
+
+ul {
+    font-weight: bolder;
+    text-align: center;
+    list-style-type: none;
+}
+
+footer {
+    background-color: aliceblue;
+}
+
+.onde-estamos {
+    padding: 15px;
+}
+
+.localizacao {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(
+    -50%,
+    -50%)
+}
+
+h5 {
+    font-size: 15px;
+}
+
+h3, p, h5 {
+    color: cornsilk;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.imagem {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.logo {
+    border-radius: 50px;
+    height: 80px;
+}
+
+.botoes {
+    position: absolute;
+    top: 20px;
+    left: 43%;
+}
+
+.styled {
+    width: 100px;
+    display: block;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+  }
+  
+  .styled:active {
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
