@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Shantell+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 .cabecalho {
     padding: 10px 5px;
@@ -33,7 +33,9 @@ body {
 }
 
 main {
-    background-color: rgb(15, 15, 14);
+    background-image: url(./scr/images/fiber-bg.jpg);
+    background-position: center;
+    background-size: contain;
     height: 500px;
     position: relative;
 }
