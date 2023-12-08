@@ -3,29 +3,21 @@
 .cabecalho {
     padding: 10px 5px;
     background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.cabecalho .logo {
-    display: inline-block;
+ul {
+    display: flex;
+    font-weight: bolder;
+    list-style-type: none;
 }
 
-.cabecalho nav {
-    float: right;
-}
-
-.cabecalho nav li {
-    display: inline-block;
-    padding: 15px;
-}
-
-.icone-whatsapp {
-    width: 50px;
-    height: 50px;
-    position: fixed; 
-    bottom: 0px; 
-    right: 0px; 
-    margin-bottom: 20px; 
-    margin-right: 20px;
+ul li {
+    padding: 10px;
+    margin: 10px;
+    transition: ease-in-out 0.3s;
 }
 
 body {
@@ -46,12 +38,6 @@ main p {
 
 .quem-somos {
     padding: 15px;
-}
-
-ul {
-    font-weight: bolder;
-    text-align: center;
-    list-style-type: none;
 }
 
 footer {
@@ -99,6 +85,21 @@ h3, p, h5 {
     position: absolute;
     top: 20px;
     left: 43%;
+}
+
+li:hover {
+    background-color: blue;
+    color: #fff;
+}
+
+.icone-whatsapp {
+    width: 50px;
+    height: 50px;
+    position: fixed; 
+    bottom: 0px; 
+    right: 0px; 
+    margin-bottom: 20px; 
+    margin-right: 20px;
 }
 
 .styled {
